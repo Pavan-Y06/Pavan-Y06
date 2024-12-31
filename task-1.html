@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Landing page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+        }
+        .home-page-content {
+            text-align:center;
+            padding: 300px;
+            color: white;
+            font-size: 40px;
+        }
+        body {
+            background-image: url('123.jpg');
+            height: 100vh;
+            width: 100vw;
+            position: relative;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        nav .logo {
+            color: rgb(252, 251, 251);
+            font-size: 33px;
+            font-weight:bold;
+            line-height: 50px;
+            padding-left: 30px;
+        }
+        nav {
+            height:0px;
+            background: #e7eaeb;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        }
+        nav ol {
+            float: right;
+            margin-right: 25px;
+        }
+        nav ol li {
+            display: inline-block;
+        }
+        nav ol li a {
+            color: rgb(0, 0, 0);
+            display:inline;
+            padding: 0 15px;
+            line-height: 70px;
+            font-size: 30px;
+            background: #ffffff;
+        }
+        nav ol li .active,
+        nav ol li a:hover {
+            color: rgb(231, 50, 147);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <label class="logo">TRENDZZ</label>
+        <ol>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">Search</a></li>
+            <li><a href="#">Top Brands</a></li>
+            <li><a href="#">contact</a></li>
+        </ol>
+    </nav>
+    <div class="home-page-content">
+        <h1 style="color:red">Fashion sale is Live</h1>
+        <h3 style="color:#f2eceb">Get upto 50% Discounts on your favourite Brands</h3>
+    </div>
+</body>
+</html>
