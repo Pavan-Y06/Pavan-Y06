@@ -1,0 +1,108 @@
+ /* General Styling */
+ body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: palevioletred;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Navigation Bar Styling */
+nav ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+nav ol li {
+    margin: 0 1rem;
+    position: relative;
+}
+
+nav ol li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+}
+
+nav ol li a:hover, nav ol li a.active {
+    color: blue;
+}
+
+/* Dropdown Styling */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Main Content Styling */
+main {
+    padding: 9.5rem 2rem; /* Adjust as needed */
+    text-align:left;
+    text-decoration-color: aqua;
+    background-image: url('126.jpg');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-page-content h1 {
+    color: rgb(255, 0, 0);
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.home-page-content h2 {
+    color:white;
+    font-weight: bolder;
+    font-style: oblique;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer span {
+    font-weight: italic;
+}
